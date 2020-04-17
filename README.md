@@ -19,4 +19,4 @@ solution: 1) extrudeMesh untility after importing the mesh from Ansys
                6) use CreatePatch -overwrite to empty front and back faces.
                
                
-          
+         
