@@ -18,5 +18,9 @@ solution: 1) extrudeMesh untility after importing the mesh from Ansys
                5) import to openFoam in ascii .msh format
                6) use CreatePatch -overwrite to empty front and back faces.
                
-               
+              All prblems observed during simulation were because of the problem on the mesh. Hence, the above procedure will likely correct all errors. 
+              other points to note include on the createPatchDict the assigning of the left(-) and right(+) patch should be accurate
+               - The values given their should reflect the exact geometry, specially 
+                                   separationVector (-0.010 0 0); 
+                the front is always the fact laying on the plane x-y or the one facing negative z-direction.
          
